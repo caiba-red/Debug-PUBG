@@ -38,5 +38,5 @@
 
 <p align="center">
   <img src="IMG_20250814_091603.png" alt="游戏测试效果" width="600"/>
-   <img src="Image_1754908639461.png" alt="游戏测试效果" width="600"/>
+   <img src="Image_1754908535185.png" alt="游戏测试效果" width="600"/>
 </p>
