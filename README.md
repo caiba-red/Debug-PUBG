@@ -60,23 +60,5 @@
   - 本工具仅适用于 **安全研究、逆向工程与驱动级调试** 等合法用途。  
   - 请勿用于任何违反法律法规或破坏性场景，否则后果自负。  
 
----
-
-在开发与测试过程中，可参考以下资料与开源项目：
-
-- **Windows Hyper-V & VMX 技术**
-  - [Intel® 64 and IA-32 Architectures Software Developer’s Manual](https://www.intel.com/content/www/us/en/developer/articles/technical/intel-sdm.html) – Intel 官方虚拟化文档
-  - [Hyper-V Internals (hvpp Project)](https://github.com/wbenny/hvpp) – 基于 Intel VMX 的 Hyper-V 类似实现，学习 EPT 管理与 VMExit 分发
-
-- **HyperDbg 调试器**
-  - [HyperDbg GitHub](https://github.com/HyperDbg/HyperDbg) – 基于虚拟化的开源调试器，支持 EPT Hook、异常拦截等
-  - [HyperDbg Documentation](https://docs.hyperdbg.org/) – 官方文档与使用说明
-
-- **Windows 内核 & 反调试技术**
-  - [Windows Internals, Part 1 & 2 (Mark Russinovich)](https://learn.microsoft.com/en-us/sysinternals/)  
-  - [Undocumented Windows NT API](http://undocumented.ntinternals.net/) – 内核未公开 API 索引  
-  - [Reversing and Anti-Debugging Techniques](https://www.unknowncheats.me/) – 反反调试研究资料  
-
----
 
 
