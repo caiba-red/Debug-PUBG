@@ -38,8 +38,6 @@
 
 <p align="center">
   <img src="IMG_20250814_091603.png" alt="游戏测试效果" width="600"/>
-   <img src="Image_1754908535185.png" alt="游戏测试效果" width="600"/>
-</p>
 ## ⚠️ 注意事项
 
 使用 HvGuardDbg 可能存在一定的 **系统稳定性风险**，请务必在实验环境或虚拟机中先行测试。  
