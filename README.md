@@ -9,16 +9,14 @@
 
 - **虚拟化保护**  
   - 基于 VMX / EPT 的内存访问控制  
-  - 支持动态策略切换与安全隔离  
 
 - **调试器防护**  
   - 隐藏硬件断点与软件断点  
-  - 过滤异常事件 (VEH / UEF)  
+  - 过滤游戏抛异常事件
   - 避免调试窗口被检测  
 
 - **反反调试机制**  
   - 针对 EAC、BattleEye 等反作弊环境的检测规避  
-  - 内核级异常注入与拦截  
 
 # 📸 软件截图
 
@@ -58,5 +56,44 @@
   - 本工具仅适用于 **安全研究、逆向工程与驱动级调试** 等合法用途。  
   - 请勿用于任何违反法律法规或破坏性场景，否则后果自负。  
 
+# Hypervisor-Guarded Debugger (HvGuardDbg)  
+**VMX/EPT-Based Virtualization Protection & Anti-Debugging Framework**  
+*For Reverse Engineering, Security Testing & Driver-Level Debugging*  
 
+---
+
+## ✨ Core Features  
+
+### Virtualization Protection  
+- **EPT Memory Control**  
+  Fine-grained memory access monitoring via Extended Page Tables  
+- **VMX Root-Mode Operation**  
+  Kernel-level isolation for undetectable debugging operations  
+
+### Debugger Protection  
+- **Stealth Breakpoints**  
+  Hide hardware/software breakpoints from anti-debuggers  
+- **Exception Filtering**  
+  Filter game exception events to prevent detection  
+- **Window Obfuscation**  
+  Mask debugging windows from process scanners  
+
+### Anti-Anti-Debugging  
+- **Anti-Cheat Evasion**  
+  Bypass EAC, BattleEye, VAC, and kernel-level protections  
+- **Dynamic Behavior Masking**  
+  Randomize debugger fingerprints during runtime  
+
+---
+
+
+---
+
+## ⚠️ Critical Usage Notes  
+
+### System Stability Risks  
+- **BSOD Potential**  
+  > VMX misconfigurations may cause system crashes  
+  *Recommendation: Always test in virtualized environments first*  
+- **Hardware Requirements**
 
